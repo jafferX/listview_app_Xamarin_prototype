@@ -10,6 +10,9 @@
 *.sln.docstates
 
 # User-specific files (MonoDevelop/Xamarin Studio)
+packages
+listview_app\listview_app.Android\bin\Debug
+
 *.userprefs
 
 # Build results

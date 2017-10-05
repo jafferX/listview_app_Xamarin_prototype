@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:listview_app"
+             x:Class="listview_app.MainPage"
+             Padding="20,20,20,0">
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
+        <Label Text="F/GO Servant Info Finder" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Medium"/>
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+                <Button Text="Servant List" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Clicked="OpenList" BackgroundColor="DarkGoldenrod" BorderWidth="1" Grid.Row="0" Grid.Column="0"/>
+                <Button Text="Does nothing" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Clicked="OpenList" Grid.Row="0" Grid.Column="1"/>
+                <Button Text="Does even more nothing" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Clicked="OpenList" Grid.Row="1" Grid.Column="0"/>
+                <Button Text="Doesn't do anything" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Clicked="OpenList" Grid.Row="1" Grid.Column="1"/>
+            </Grid>
+        
+        </StackLayout>
+
+
+</ContentPage>
